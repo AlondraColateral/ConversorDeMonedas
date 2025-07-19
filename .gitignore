@@ -1,0 +1,12 @@
+# Directorios de compilación y salida de IntelliJ
+/out/
+/build/
+.gradle/
+.idea/
+*.iml
+
+# Archivos compilados de Java
+*.class
+
+# Archivos de log
+*.log
