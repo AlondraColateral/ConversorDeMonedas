@@ -135,7 +135,7 @@ Al ejecutar el programa, verás un menú de opciones en la consola:
 
 9) Mostrar Historial de Conversiones
     
-   S) Salir
+ S) Salir
 
 
 Por favor, ingrese un número del 1 al 9 o 's' para elegir una opción:
