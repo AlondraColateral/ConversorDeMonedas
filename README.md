@@ -2,13 +2,14 @@
 Desafio Alura Latam
 
 
-🚀 Conversor de Monedas (Challenge Alura Latam - ONE)
+🚀 **Conversor de Monedas (Challenge Alura Latam - ONE)**
 
 Este proyecto es una aplicación de consola en Java que permite realizar conversiones de diferentes monedas utilizando tasas de cambio actualizadas en tiempo real a través de una API. Desarrollado como parte del desafío ONE (Oracle Next Education) de Alura Latam, con un enfoque en buenas prácticas de programación, modularidad y experiencia de usuario.
 
 
+**************************************************
 
-🌟 Características
+🌟 **Características**
 
 Conversión en Tiempo Real: Obtiene tasas de cambio actualizadas de la API ExchangeRate-API.
 
@@ -33,7 +34,9 @@ Manejo de Errores: Valida la entrada del usuario y muestra mensajes claros en ca
 Diseño Modular: Código estructurado en clases con responsabilidades específicas para facilitar la lectura y el mantenimiento.
 
 
-🛠️ Tecnologías Utilizadas
+**************************************************
+
+🛠️ **Tecnologías Utilizadas**
 
 Java 17+
 
@@ -42,7 +45,9 @@ Gson 2.10.1: Biblioteca de Google para serializar y deserializar objetos Java a/
 API Externa: ExchangeRate-API (Free Tier)
 
 
-Estructura del Proyecto
+**************************************************
+
+**Estructura del Proyecto**
 
 El proyecto está organizado de manera modular para separar las diferentes responsabilidades de cada componente y hacer el código más fácil de entender y mantener:
 
@@ -59,9 +64,11 @@ ConversorMenu.java: Gestiona la interfaz de usuario en la consola. Se encarga de
 Principal.java: La clase principal que contiene el método main. Es el punto de entrada para ejecutar la aplicación.
 
 
-🚀 Cómo Ejecutar el Proyecto
+**************************************************
 
-Requisitos Previos
+🚀 **Cómo Ejecutar el Proyecto**
+
+**Requisitos Previos**
 
 Java Development Kit (JDK) 17 o superior instalado en tu computadora.
 
@@ -70,7 +77,7 @@ Conexión a internet (necesario para obtener las tasas de cambio de la API).
 La biblioteca Gson 2.10.1 debe estar disponible en tu proyecto. Si estás usando un IDE como IntelliJ IDEA o Eclipse, usualmente lo añades como una dependencia externa.
 
 
-Pasos para Ejecutar
+**Pasos para Ejecutar**
 
 Abre el proyecto en tu IDE (IntelliJ IDEA, Eclipse, VS Code):
 
@@ -85,7 +92,7 @@ Si no lo hiciste ya, descarga el archivo JAR de Gson (versión 2.10.1) desde su 
 Añade este archivo JAR a la ruta de compilación (Build Path) de tu proyecto en tu IDE. 
 
 
-Ejecuta la aplicación:
+**Ejecuta la aplicación**:
 
 Navega a la clase Principal.java dentro de tu IDE.
 
@@ -94,10 +101,12 @@ Busca el método main (generalmente tiene un icono de "play" o "ejecutar" al lad
 Haz clic en el icono para ejecutar el programa.
 
 
-💡 Cómo Usar la Aplicación
+**************************************************
+
+💡 **Cómo Usar la Aplicación**
 Al ejecutar el programa, verás un menú de opciones en la consola:
 
-**************************************************
+
 ¡Hola! Bienvenido/a al Conversor de Moneda =]
 1) Peso Chileno >> Dólar
 2) Dólar >> Peso Chileno
@@ -110,7 +119,8 @@ Al ejecutar el programa, verás un menú de opciones en la consola:
 9) Mostrar Historial de Conversiones
 S) Salir
 Por favor, ingrese un número del 1 al 9 o 's' para elegir una opción:
-**************************************************
+
+
 
 Elige una opción de conversión (1-8): Ingresa el número correspondiente a la conversión deseada y presiona Enter.
 
@@ -123,7 +133,9 @@ Ver historial (9): Ingresa 9 para ver un listado de todas las conversiones que h
 Salir (S): Ingresa S (mayúscula o minúscula) para finalizar la aplicación.
 
 
-🤝 Contribuciones
+**************************************************
+
+🤝 **Contribuciones**
 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar, encuentras algún error o quieres añadir más funcionalidades, no dudes en:
 
 Hacer un "Fork" del repositorio (copiarlo a tu cuenta).
